@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.amikomselfpresent.hal_code">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg"
+        android:scaleType="centerCrop"
+        android:id="@+id/fromBack"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.10"
+                android:layout_marginBottom="10dp"
+                android:text="MASUKAN KODE"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                />
+
+            <AutoCompleteTextView
+                android:id="@+id/Kode"
+                android:layout_width="215dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="55dp"
+                android:background="@drawable/kode_black"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_weight="0.46" />
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="209dp"
+                android:layout_height="50dp"
+                android:textColor="@color/white"
+                android:text="ABSEN"
+                android:textStyle="normal"
+                android:background="@drawable/signin_button"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+
+
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/orange" />
+
+</RelativeLayout>

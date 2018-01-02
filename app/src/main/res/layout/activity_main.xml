@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.lenovo.amikomselfpresent.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/logo_amikom"
+        android:id="@+id/fromLogo"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/fromLogo">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/trans_white_rectangle"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:weightSum="1">
+
+
+
+            <EditText
+                android:id="@+id/userEmail"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="50dp"
+                android:drawableLeft="@drawable/user"
+                android:drawablePadding="5dp"
+                android:hint="NIM"
+                android:paddingStart="10dp"
+                android:textSize="14sp"
+
+                />
+
+            <EditText
+                android:id="@+id/userPassword"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:drawableLeft="@drawable/password"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/visibility"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingStart="10dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Forgot password?"
+                android:textSize="11dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="209dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/signin_button"
+                android:text="Sign In"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

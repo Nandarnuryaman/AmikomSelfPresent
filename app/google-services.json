@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "591087426801",
+    "firebase_url": "https://presensi-eb815.firebaseio.com",
+    "project_id": "presensi-eb815",
+    "storage_bucket": "presensi-eb815.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591087426801:android:6ac5e64072dc70c7",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.amikomselfpresent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591087426801-tpk2o8lpr8lmjvv9ddkte8e4o41cpekk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYQYSAoRcjYsAxRcJSy8f42DAF7atKBNA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
