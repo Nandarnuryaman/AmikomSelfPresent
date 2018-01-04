@@ -52,10 +52,10 @@
                 android:layout_height="50dp"
                 android:layout_marginEnd="15dp"
                 android:layout_marginStart="55dp"
+                android:layout_weight="0.46"
                 android:background="@drawable/kode_black"
                 android:textColor="@color/white"
-                android:textSize="14sp"
-                android:layout_weight="0.46" />
+                android:textSize="14sp" />
 
             <Button
                 android:id="@+id/btn"
@@ -74,14 +74,5 @@
         </LinearLayout>
 
     </ScrollView>
-
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:background="@color/orange" />
 
 </RelativeLayout>
