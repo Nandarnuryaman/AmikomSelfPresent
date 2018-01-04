@@ -58,7 +58,7 @@
                 android:textSize="14sp" />
 
             <Button
-                android:id="@+id/btn"
+                android:id="@+id/btn_absen"
                 android:layout_width="209dp"
                 android:layout_height="50dp"
                 android:textColor="@color/white"
